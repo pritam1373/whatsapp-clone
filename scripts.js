@@ -29,32 +29,32 @@ on.addEventListener("click",  () =>{
 
 
 
-p.addEventListener("touchstart", ()=>{
+p.addEventListener("pointerdown", ()=>{
     window.location.href="index1.html"
 })
 
-s.addEventListener("touchstart", ()=>{
+s.addEventListener("pointerdown", ()=>{
     window.location.href="index2.html"
 })
-m.addEventListener("touchstart", ()=>{
+m.addEventListener("pointerdown", ()=>{
     window.location.href="index3.html"
 })
-b.addEventListener("touchstart", ()=>{
+b.addEventListener("pointerdown", ()=>{
     window.location.href="index4.html"
 })
-f.addEventListener("touchstart", ()=>{
+f.addEventListener("pointerdown", ()=>{
     window.location.href="index5.html"
 })
-l.addEventListener("touchstart", ()=>{
+l.addEventListener("pointerdown", ()=>{
     window.location.href="index6.html"
 })
-g.addEventListener("touchstart", ()=>{
+g.addEventListener("pointerdown", ()=>{
     window.location.href="index7.html"
 })
-s.addEventListener("touchstart", ()=>{
+s.addEventListener("pointerdown", ()=>{
     window.location.href="index8.html"
 })
-d.addEventListener("touchstart", ()=>{
+d.addEventListener("pointerdown", ()=>{
     window.location.href="index9.html"
 })
 
