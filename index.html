@@ -5,14 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Whatsapp Clone</title>
     <style>
-        .phone{
+        #phone{
             width: 350px;
             height: 590px;
             border: 2px solid violet;
             border-radius: 20px;
-            transform: scaleY(1.2); 
-             margin-top: 70px;
-
+            transform: scaleY(1.2);
+            top: 70px;
+            position: relative;
+            z-index: 10;
         }
         .time{
             font-size: 17px;
@@ -50,7 +51,7 @@
             width: 50px;
             height: 40px;
             margin-top: 27px;
-            margin-left: 87px;
+            margin-left: 100px;
         }
         .camera{
             width: 25px;
@@ -153,7 +154,7 @@
             font-weight: 600;
             font-size: larger;
         }
-        .ovi{
+        #ovi{
             width: 25px;
             position: relative;
             top: -30px;
@@ -176,7 +177,7 @@
          display: flex;
          flex-wrap: wrap;
         }
-        .profile{
+        .profile{ 
               width: 40px;
               height: 40px;
               border: 1px solid black;
@@ -192,15 +193,13 @@
                font-weight: 600;
                margin-left: 10px;
         }
-        .pritam{
+        #pritam{
             width: 40px;
             height: 40px;
             border-radius: 50px;
         }
-        .pritam:hover{
-            img
-        }
-        .debkumar{
+       
+        #debkumar{
             width: 40px;
             height: 40px;
             border-radius: 50px;
@@ -208,37 +207,37 @@
         .profile{
             border-radius: 50px;
         }
-          .laltu{
+          #laltu{
             width: 40px;
             height: 40px;
             border-radius: 50px;
         }
-        .ma{
+        #ma{
             width: 40px;
             height: 40px;
             border-radius: 20px;
         }
-         .baba{
+         #baba{
             width: 40px;
             height: 40px;
             border-radius: 20px;
         }
-        .flipkard{
+        #flipkard{
             width: 40px;
             height: 40px;
             border-radius: 500px;
         }
-        .Sumanta{
+        #sumanta{
             width: 40px;
             height: 40px;
             border-radius: 20px;
         }
-         .ghosh{
+         #ghosh{
             width: 40px;
             height: 40px;
             border-radius: 20px;
         }
-        .shirshak{
+        #shirshak{
                 width: 40px;
                 height: 40px;
                 border-radius: 20px;
@@ -326,13 +325,11 @@
             background-color: black;
         }
      
-      
-      
-      
+    
     </style>
 </head>
 <body>
-    <div class="phone">
+    <div id="phone">
         <div class="avove"> 
             <div class="time">7:20</div>
         <!-- <div class="notch"></div> -->
@@ -345,8 +342,8 @@
             <img src="WhatsApp Image 2025-05-28 at 06.49.33 (1).jpeg" alt="" class="doted">
         </div>
         <div class="middle">
-            <input type="search" class="search" placeholder="          Ask Meta AI or search" >
-            <img src="Screenshot 2025-05-28 074035.png" alt="" class="ovi">
+            <input type="search" class="search" id="ovinandy" placeholder="            Ask Meta AI or search" >
+            <img src="Screenshot 2025-05-28 074035.png" alt="" id="ovi">
             <div class="navbar">
          <div class="all">All</div>
          <div class="unread">Unread</div>
@@ -360,55 +357,55 @@
             </div>
             <div class="main">
             <div class="profile profile1">
-              <a href="Halfcircle.html"><img src="WhatsApp Image 2025-05-28 at 08.30.48.jpeg" alt="" class="pritam"></a>
+              <img src="WhatsApp Image 2025-05-28 at 08.30.48.jpeg" alt="" id="pritam">
             </div>
-            <div class="text">+91834757474(You)  
+            <div class="text">+917363944497(You)  
                 <div class="pen">Who are you.......</div>
             </div>
             <div class="profile">
-                <img src="WhatsApp Image 2025-05-28 at 09.42.13.jpeg" alt="" class="Sumanta">
+                <img src="WhatsApp Image 2025-05-28 at 09.42.13.jpeg" alt="" id="sumanta">
             </div>
             <div class="text">Sumanta Mess
                 <div class="pen">Hm</div>
             </div>
             <div class="profile">
-                <img src="WhatsApp Image 2025-05-28 at 09.43.08.jpeg" alt="" class="ma">
+                <img src="WhatsApp Image 2025-05-28 at 09.43.08.jpeg" alt="" id="ma">
             </div>
             <div class="text">Ma
                 <div class="pen">Thik ache</div>
             </div>
             <div class="profile">
-                <img src="Screenshot 2025-05-28 145547.png" alt="" class="baba">
+                <img src="Screenshot 2025-05-28 145547.png" alt="" id="baba">
             </div>
             <div class="text">Baba
                 <div class="pen">Hm</div>
             </div>
             <div class="profile five">
-                <img src="WhatsApp Image 2025-05-28 at 09.42.38.jpeg" alt="" class="flipkard">
+                <img src="WhatsApp Image 2025-05-28 at 09.42.38.jpeg" alt="" id="flipkard">
             </div>
             <div class="text">Flipkard Support
                 <div class="pen">Thank you for your response.The courier...</div>
             </div>
             <div class="profile">
-                                <img src="WhatsApp Image 2025-05-28 at 09.12.47.jpeg" alt="" class="laltu kaka">
+                                <img src="WhatsApp Image 2025-05-28 at 09.12.47.jpeg" alt="" id="laltu">
             </div>
             <div class="text">Laltu Kaka
                 <div class="pen">Accha</div>
             </div>
             <div class="profile">
-                <img src="WhatsApp Image 2025-05-28 at 09.44.13.jpeg" alt="" class="ghosh">
+                <img src="WhatsApp Image 2025-05-28 at 09.44.13.jpeg" alt="" id="ghosh">
             </div>
             <div class="text">Ghosh Vai
                 <div class="pen">Ok</div>
             </div>
             <div class="profile">
-                <img src="Screenshot 2025-05-28 150554.png" alt="" class="shirshak">
+                <img src="Screenshot 2025-05-28 150554.png" alt="" id="shirshak">
             </div>
             <div class="text">Shirshak
                 <div class="pen">Hm</div>
             </div>
             <div class="profile">
-                <img src="empty.jpeg" alt="" class="debkumar">
+                <img src="empty.jpeg" alt="" id="debkumar">
             </div>
             <div class="text">Debkumar
                 <div class="pen">Sabash</div>
@@ -432,11 +429,17 @@
              <div class="call1 lekha">Calls</div>
              </div>
             
+            
              
     </div>
     <div class="notch"></div>
     
-       
+
+
+    
+
+
+       <script src="scripts.js"></script>
       
 </body>
 </html>
