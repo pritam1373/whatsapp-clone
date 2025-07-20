@@ -5,7 +5,7 @@ b=document.getElementById("baba")
 f=document.getElementById("flipkard")
 l=document.getElementById("laltu")
 g=document.getElementById("ghosh")
-s=document.getElementById("shirshak")
+si=document.getElementById("shirshak")
 d=document.getElementById("debkumar")
 
 
@@ -51,7 +51,7 @@ l.addEventListener("pointerdown", ()=>{
 g.addEventListener("pointerdown", ()=>{
     window.location.href="index7.html"
 })
-s.addEventListener("pointerdown", ()=>{
+si.addEventListener("pointerdown", ()=>{
     window.location.href="index8.html"
 })
 d.addEventListener("pointerdown", ()=>{
